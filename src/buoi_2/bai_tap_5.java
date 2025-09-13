@@ -1,3 +1,5 @@
+package buoi_2;
+
 import java.util.Scanner;
 
 public class bai_tap_5 {
