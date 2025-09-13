@@ -1,3 +1,5 @@
+package buoi_3;
+
 public class bai_tap_6 {
     public static void main(String[] args) {
         int i = 10;

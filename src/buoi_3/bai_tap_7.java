@@ -1,3 +1,5 @@
+package buoi_3;
+
 public class bai_tap_7 {
     public static void main(String[] args) {
         int[] numbers ={3,7,2,9,5};

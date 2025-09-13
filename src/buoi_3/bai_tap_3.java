@@ -1,3 +1,5 @@
+package buoi_3;
+
 public class bai_tap_3 {
     public static void main(String[] args){
         int sum = 0;
