@@ -11,7 +11,7 @@ public class main {
         // gán giá trị cho đối tượng
         hs1.name = "Man";
         hs1.age = 28;
-        hs1.age = 12;
+        hs1.grade = 12;
 
         hs2.name = "Lan";
         hs2.age = 18;
