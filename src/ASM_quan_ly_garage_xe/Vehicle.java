@@ -1,7 +1,7 @@
 package ASM_quan_ly_garage_xe;
+public class Vehicle{
 
-public class Vehicle {
-    // thuộc tính mỗi loại xe
+    private static int autoIncrementId = 0;
     private int id;
     public String brand;
     public String model;
