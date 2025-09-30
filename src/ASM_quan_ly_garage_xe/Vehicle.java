@@ -10,9 +10,9 @@ public class Vehicle{
     private String color;
     private String type;
 
-    // gán giá trị
-    public Vehicle(int id, String brand, String model, int year, double price, String color, String type){
-        this.id = id;
+    // phương thức
+    public Vehicle(String brand, String model, int year, double price, String color, String type){
+        this.id = autoIncrementId++;
         this.brand = brand;
         this.model = model;
         this.year = year;
