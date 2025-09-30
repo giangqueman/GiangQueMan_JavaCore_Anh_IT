@@ -3,9 +3,9 @@ public class Vehicle{
 
     private static int autoIncrementId = 0;
     private int id;
-    public String brand;
-    public String model;
-    public int year;
+    private String brand;
+    private String model;
+    private int year;
     private double price;
     String color;
     String type;
