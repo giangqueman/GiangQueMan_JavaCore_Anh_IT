@@ -7,8 +7,8 @@ public class Vehicle{
     private String model;
     private int year;
     private double price;
-    String color;
-    String type;
+    private String color;
+    private String type;
 
     // gán giá trị
     public Vehicle(int id, String brand, String model, int year, double price, String color, String type){
