@@ -9,6 +9,7 @@ public class Vehicle{
     private double price;
     private String color;
     private String type;
+    private static int totalVehicle;
 
     // phương thức
     public Vehicle(String brand, String model, int year, double price, String color, String type){
@@ -19,11 +20,17 @@ public class Vehicle{
         this.price = price;
         this.color = color;
         this.type = type;
+        this.totalVehicle++;
     }
 
     //phương thức discount
     public void applyDiscount(double discount){
         price = price - (price * discount);
+    }
+
+    // phương thức toString
+    public String toString(){
+        return "Brand: " + brand + "Model: " + model + "Year: " + year + "Price: " + price + "Color: " + color;
     }
 
     //getter và setter
@@ -75,5 +82,9 @@ public class Vehicle{
 
     public void setType(String type){
         this.type = type;
+    }
+
+    public static int getTotalVehicle(){
+        return totalVehicle;
     }
 }
