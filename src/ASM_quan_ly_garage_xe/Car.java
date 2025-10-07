@@ -8,25 +8,9 @@ public class Car extends Vehicle {
         this.seatCount = seatCount;
     }
 
-    //  Override phương thức applyDiscount() → giảm giá 15%
     @Override
-    public void applyDiscount(double discount) {
+    public void applyDiscount(){
         setPrice(getPrice() * 0.85);
     }
 
-    // override toString for seatCount
-    @Override
-    public String toString(){
-        return super.toString() + "Seats: " + seatCount;
-    }
-
-
-    // getter, setter
-    public int getSeatCount(){
-        return seatCount;
-    }
-
-    public void setSeatCount(int seatCount){
-        this.seatCount = seatCount;
-    }
 }
